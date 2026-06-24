@@ -216,7 +216,7 @@ if __name__ == "__main__":
     print("-" * 60)
     tool = DraftEmail(
         provider="gmail",
-        to=["arseny9795@gmail.com"],
+        to=["recipient@example.com"],
         subject="Test Draft from Virtual Assistant",
         body="This is a test draft created by the Virtual Assistant tool.\n\nPlease ignore this message."
     )
